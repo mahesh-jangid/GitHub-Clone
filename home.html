@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div id="nav-container"></div>
+    <div id="user_container">
+      <span class="total_repo"></span>
+      <div id="user_navbar">
+        <ul>
+          <li class="list-item active">
+            <div>
+              <span class="iconify" data-icon="akar-icons:book"></span>
+              <span>Overview</span>
+            </div>
+          </li>
+          <li class="list-item">
+            <div>
+              <span class="iconify" data-icon="octicon:repo-16"></span>
+              <span>Repositories</span>
+            </div>
+          </li>
+          <li class="list-item">
+            <div>
+              <span class="iconify" data-icon="octicon:table-16"></span>
+              <span>Projects</span>
+            </div>
+          </li>
+          <li class="list-item">
+            <div>
+              <span class="iconify" data-icon="octicon:package-16"></span>
+              <span>Packages</span>
+            </div>
+          </li>
+          <li class="list-item">
+            <div>
+              <span class="iconify" data-icon="ant-design:star-outlined"></span>
+              <span>Stars</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="container" class="home__con">
+        <div class="home_container">
+          <div class="home_repo">
+            <div>
+              <div>
+                <p>Repositories</p>
+                <button>
+                  <span class="iconify" data-icon="octicon:repo-16"></span>
+                  New
+                </button>
+              </div>
+              <input type="text" placeholder="Find a repository..." />
+
+              <p>
+                <span>Recent activity</span><br />
+                When you take actions across GitHub, we’ll provide links to that
+                activity here.
+              </p>
+            </div>
+          </div>
+          <div class="scroll">
+            <span
+              class="iconify up"
+              data-icon="octicon:triangle-down-16"
+            ></span>
+            <span></span>
+            <span
+              class="iconify down"
+              data-icon="octicon:triangle-down-16"
+            ></span>
+          </div>
+          <div class="home_Activity">
+            <h3>All activity</h3>
+            <div class="home_Activity--main">
+              <div class="home_Activity--head">
+                <img
+                  src="https://static.toiimg.com/thumb/msid-67586673,width-800,height-600,resizemode-75,imgsize-3918697,pt-32,y_pad-40/67586673.jpg"
+                  id="profile-img"
+                />
+
+                <span
+                  ><b>shashi530</b> starred
+                  <b>mahesh-jangid/Puma-Website-Clone</b> 2 days ago</span
+                >
+              </div>
+              <div class="home_activity--repo">
+                <div>
+                  <h3>mahesh-jangid/Puma-Website-Clone</h3>
+                  <p>Build Puma Website Clone</p>
+                  <span
+                    class="iconify"
+                    data-icon="ant-design:star-outlined"
+                  ></span
+                  >26
+                </div>
+                <div>
+                  <button>
+                    <span
+                      class="iconify"
+                      data-icon="ant-design:star-outlined"
+                    ></span
+                    ><span>Star</span>
+                  </button>
+                  <button>
+                    <span
+                      class="iconify"
+                      data-icon="octicon:triangle-down-16"
+                    ></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="home_Activity--main">
+              <div class="home_Activity--head">
+                <img
+                  src="https://static.toiimg.com/thumb/msid-67586673,width-800,height-600,resizemode-75,imgsize-3918697,pt-32,y_pad-40/67586673.jpg"
+                  id="profile-img"
+                />
+                <span
+                  ><b>AASHISHKUMAR321</b> pushed to
+                  <b>mahesh-jangid/Puma-Website-Clone</b> 3 days ago</span
+                >
+              </div>
+              <div class="home_activity--repo">
+                <div>
+                  <h3>2 commits to main</h3>
+
+                  0705709 Update README.md
+                </div>
+                <div>
+                  <button>
+                    <span
+                      class="iconify"
+                      data-icon="ant-design:star-outlined"
+                    ></span
+                    ><span>Star</span>
+                  </button>
+                  <button>
+                    <span
+                      class="iconify"
+                      data-icon="octicon:triangle-down-16"
+                    ></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Explore_repo">
+            <h4>Explore repositories</h4>
+            <div>
+              <h3>trulymittal/Nodejs-REST-API</h3>
+              <p>
+                This is a RESTful API example based on Node.js and MongoDB,
+                following the MVC pattern i.e. Model View Controller.
+              </p>
+              <span>JavaScript &nbsp;&nbsp;2.2k</span>
+            </div>
+            <div>
+              <h3>MarkKhramko/nodejs-express-jwt</h3>
+              <p>
+                Node.js Express REST API boilerplate with JWT Authentication and
+                support for MySQL and PostgreSQL.
+              </p>
+              <span>Node &nbsp;&nbsp;4.7k</span>
+            </div>
+            <a href="">Explore more </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script type="module" src="./scripts/home.js"></script>
