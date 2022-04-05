@@ -13,6 +13,13 @@
   ### CSS
   ### JavaScript
   ##
+  
+  
+## Functonalities Applied
+
+   #### Search User Profile
+   #### SignIn/SignUp
+   ##
 
 ## Demo Link
 
