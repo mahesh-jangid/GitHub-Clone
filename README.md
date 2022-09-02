@@ -1,26 +1,25 @@
-# GitHub-Clone
+### GitHub-Clone
 
-  Build clone of Github with awesome UI
+ - Build clone of Github with awesome UI
 
-## Description
+### Description
   
-  This project is a github user profile search application, built using HTML, CSS, Javascript and GithubAPI. This application shows all the user details along with 
+ - This project is a github user profile search application, built using HTML, CSS, Javascript and GithubAPI. This application shows all the user details along with 
   the user repos.
   
-## Technologies Used
+### Technologies Used
 
-  ### HTML
-  ### CSS
-  ### JavaScript
-  ##
+  - HTML
+  - CSS
+  - JavaScript
   
   
-## Functonalities Applied
+### Functonalities Applied
 
    #### Search User Profile
    #### SignIn/SignUp
    ##
 
-## Demo Link
+### Demo Link
 
   https://github-clone-76.netlify.app
