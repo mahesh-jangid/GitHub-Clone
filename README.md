@@ -1,6 +1,6 @@
 ### GitHub-Clone
 
- - Build clone of Github with awesome UI
+ ## Build clone of Github with awesome UI
 
 ### Description
   
